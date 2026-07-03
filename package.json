@@ -2,7 +2,14 @@
   "name": "nexus-arena-landing",
   "version": "1.0.0",
   "description": "NEXUS ARENA static landing page with local dev sharing capabilities",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start": "npx concurrently --kill-others \"npx http-server -p 3000\" \"npx localtunnel --port 3000\""
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }

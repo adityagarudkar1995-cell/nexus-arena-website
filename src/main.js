@@ -1,3 +1,4 @@
+import './style.css';
 /**
  * NEXUS ARENA - Interactive Website Script
  * High performance animations and interactions using vanilla JS
@@ -172,3 +173,4 @@ function initConnectorLineAnimation() {
   // Run initial calculation in case section is already loaded in viewport
   animateConnector();
 }
+
