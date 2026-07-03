@@ -435,11 +435,6 @@ section {
   margin-bottom: 20px;
 }
 
-#cta-download-btn {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 @media (min-width: 768px) {
   .btn-download {
     width: auto;
@@ -451,10 +446,6 @@ section {
   #hero-download-btn {
     margin-top: 15px;
     margin-bottom: 0;
-  }
-  #cta-download-btn {
-    margin-top: 0;
-    margin-bottom: 20px;
   }
 }
 
