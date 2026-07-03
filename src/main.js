@@ -1,4 +1,4 @@
-import './style.css';
+// CSS loaded via index.html link tag
 /**
  * NEXUS ARENA - Interactive Website Script
  * High performance animations and interactions using vanilla JS
