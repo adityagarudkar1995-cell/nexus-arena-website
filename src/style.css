@@ -1127,7 +1127,38 @@ section {
   color: var(--text-dimmed);
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-legal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
   margin-bottom: 25px;
+  flex-wrap: wrap;
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.footer-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: var(--transition-fast);
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.footer-link:hover {
+  color: var(--accent-blue);
+  text-shadow: 0 0 10px var(--accent-blue-glow);
+}
+
+.footer-link-sep {
+  color: var(--text-dimmed);
+  font-size: 0.8rem;
 }
 
 .social-links {
