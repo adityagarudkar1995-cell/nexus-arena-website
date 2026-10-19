@@ -1,12 +1,12 @@
-﻿{
-  "latestVersionName": "1.0.1",
-  "latestVersionCode": 2,
-  "minSupportedVersionCode": 1,
-  "forceUpdate": false,
-  "apkUrl": "https://YOUR_DOMAIN/downloads/nexus-arena.apk",
-  "changelog": [
-    "Weekly tournaments fixed",
-    "Join match improved",
-    "UI and performance improvements"
-  ]
+{
+    "latestVersionName":  "1.0.6",
+    "latestVersionCode":  7,
+    "minSupportedVersionCode":  1,
+    "forceUpdate":  false,
+    "apkUrl":  "https://nexusarena.live/downloads/nexus-arena-v1.0.6.apk?v=7",
+    "changelog":  [
+                      "Weekly tournaments fixed",
+                      "Join match improved",
+                      "UI and performance improvements"
+                  ]
 }
