@@ -94,6 +94,9 @@ function initCardTiltEffect() {
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   if (isMobile) return;
 
+  // Respect reduced-motion preference: skip the 3D tilt effect
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
       const rect = card.getBoundingClientRect();
